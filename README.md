@@ -1,36 +1,54 @@
-CSV-Chatbot Analyzer with Streamlit + Ollama (LLaMA3)
+# CSV-Chatbot Analyzer with Streamlit + Ollama (LLaMA3)
 
 A Streamlit-powered AI assistant that can analyze any uploaded CSV file using a local LLM (LLaMA3 via Ollama). Ask natural language questions, and get smart, structured responses — including auto-generated charts and tables!
 
-🔥 Features
-📁 Upload any CSV file
+## 🔥 Features
 
-💬 Ask questions in plain English
+  * 📁 Upload any CSV file
+  * 💬 Ask questions in plain English
+  * 🧠 Uses LLaMA3 locally via Ollama
 
-🧠 Uses LLaMA3 locally via Ollama
+## 📊 Auto-generates:
 
-📊 Auto-generates:
-
-Bar charts
-
-Line charts
-
-Tables
-
-Textual answers
-
-🌙 Clean dark mode UI with Streamlit
-
-📝 Query history & export (coming soon)
+  * Bar charts
+  * Line charts
+  * Tables
+  * Textual answers
+  * 🌙 Clean dark mode UI with Streamlit
+  * 📝 Query history & export (coming soon)
 
 
-🛠️ Tech Stack
-Streamlit
+## 🛠️ Tech Stack
+  * Python
+  * Streamlit
+  * LangChain
+  * Pandas
+  * Ollama (for running LLaMA3 locally)
+  * Plotly (optional enhancement)
 
-LangChain
+## 🚀 Get Started 
+1. Install Dependencies
 
-Pandas
+        `pip install -r requirements.txt`
 
-Ollama (for running LLaMA2 locally)
+2. Install and Run Ollama
 
-Plotly (optional enhancement)
+        `ollama run llama3`
+
+3. Start the App
+
+        `streamlit run streamlit_app.py`
+  
+## ScreenShots
+
+
+
+
+
+
+
+## 🚧 Future Work
+* ✅ Plotly integration
+* ✅ Export history (JSON, Excel)
+* 🔁 Chart customization
+* 🗂️ Dataset summary generation
