@@ -40,11 +40,12 @@ A Streamlit-powered AI assistant that can analyze any uploaded CSV file using a 
         `streamlit run streamlit_app.py`
   
 ## ScreenShots
-
-
-
-
-
+*
+![Screenshot 1](https://github.com/Arunkumar-ops/Data_Analysis_Tool/blob/main/Images/Screenshot%201.png)
+![Screenshot 2](https://github.com/Arunkumar-ops/Data_Analysis_Tool/blob/main/Images/Screenshot%202.png)
+![Screenshot 3](https://github.com/Arunkumar-ops/Data_Analysis_Tool/blob/main/Images/Screenshot%203.png)
+![Screenshot 4](https://github.com/Arunkumar-ops/Data_Analysis_Tool/blob/main/Images/Screenshot%205.png)
+![Screenshot 5](https://github.com/Arunkumar-ops/Data_Analysis_Tool/blob/main/Images/Screenshot%206.png)
 
 
 ## 🚧 Future Work
